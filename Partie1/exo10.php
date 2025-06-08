@@ -16,11 +16,10 @@ $verse = 200;
 $reste = $verse - $prix;
 $monnaie = [10, 5, 2, 1];
 $nbMonnaie[] = 0 ;
-var_dump($nbMonnaie[0]);
 //affichage début
 echo "Montant à payer : $prix €<br>
-    Montant versé : $verse $<br>
-    Reste à payer : $reste € <br>
+    Montant versé : $verse €<br>
+    A restituer : $reste € <br>
     ***************************************************<br>
     Rendue de monnaie :<br>";
 
