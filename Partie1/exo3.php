@@ -11,6 +11,6 @@
 
 $laPhrase = "Notre formation DL commence aujourd'hui";
 
-echo " Avant instruction, la phrase vaut '".$laPhrase."<br>";
+echo " Avant instruction, la phrase vaut <q>".$laPhrase."</q>.<br>";
 $laPhrase  = str_replace("aujourd'hui", "demain", $laPhrase);
-echo " Après instruction, la phrase vaut '".$laPhrase."'.<br>";
+echo " Après instruction, la phrase vaut <q>".$laPhrase."</q>.<br>";

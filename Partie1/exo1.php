@@ -12,4 +12,4 @@
 
 $laPhrase = "Notre formation DL commence aujourd'hui";
 
-echo "La phrase ".$laPhrase." contient ".strlen($laPhrase)." caractères.";
+echo "La phrase <q>".$laPhrase."</q> contient ".strlen($laPhrase)." caractères.";

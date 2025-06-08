@@ -11,4 +11,4 @@
 
 $laPhrase = "Notre formation DL commence aujourd'hui";
 
-echo "La phrase ".$laPhrase." contient ".str_word_count($laPhrase)." mots.";
+echo "La phrase <q>".$laPhrase."</q> contient ".str_word_count($laPhrase)." mots.";
