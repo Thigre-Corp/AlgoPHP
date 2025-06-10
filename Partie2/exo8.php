@@ -26,4 +26,4 @@ function repeterImage($url, $nbRepeat ){
 }
 
 //affichage
-echo repeterImage($lien,$nbImage);;
+echo repeterImage($lien,$nbImage);
