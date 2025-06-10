@@ -17,7 +17,8 @@ $inputDate= "2018-02-23" ;
 
 //déclaration de fonction
 function formaterDateFr($date){
-    $objetDate = new IntDateFormatter();
+    $objetDate = new IntlDateFormatter('fr-FR', IntlDateFormatter::FULL, IntlDateFormatter::NONE, 'Europe/London', IntlDateFormatter::GREGORIAN);
+    var_dump($objetDate->format(strtotime($date)));
     var_dump($objetDate);
     return $date;
 }
