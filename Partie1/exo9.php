@@ -14,7 +14,7 @@
 $age = 32;
 $sexe = "F";
 //test logique et affichage
-if (($sexe != "F") and ($sexe !="M")){
+if (($sexe != "F") && ($sexe !="M")){
     echo "Erreur sur le  sexe: l'administration fiscale ne connaît que M ou F...<br>";
 }
 elseif ((($sexe =="M") and ($age >= 20)) or (($sexe == "F") and (($age >=18) and ($age <35)))){

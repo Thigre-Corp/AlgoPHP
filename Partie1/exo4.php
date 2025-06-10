@@ -31,3 +31,26 @@ function palindrome($phraseTest){
 palindrome($laPhrase1);
 palindrome($laPhrase2);
 palindrome($laPhrase3);
+
+
+// $phrase1 
+
+
+// variable = enlève les expeces et majuscules à phrase1 
+
+// variable 2 =on reverse le resultat  
+
+// condition si variable 1 === ariable 2 alors c'est palindrome
+
+
+// 3 variables en string 
+
+// $mot1 = "abricot" ; 
+// $mot2 = "abris";
+// $mot3 = "bidule";
+
+// if($mot1 <$mot2 {
+
+
+// }
+

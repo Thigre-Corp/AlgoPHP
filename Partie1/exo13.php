@@ -11,10 +11,12 @@
 
 //déclaration de varaibles
 $notes = [10, 12, 8, 19, 3, 16, 11, 13, 9];
+$somme = 0;
 
 //affichage
 echo "Les notes obtenues par l’élève sont :";
-foreach(range(0, count($notes)-1) as $i) {
-    echo " $notes[$i]";
+foreach($notes as $note) {
+    echo " $note";
+    $somme +=$note ;
 }
-echo "<br>Sa moyenne générale est de : ".round(array_sum($notes)/count($notes),2)."<br>";
+echo "<br>Sa moyenne générale est de : ".round( $somme / count($notes),2)."<br>";

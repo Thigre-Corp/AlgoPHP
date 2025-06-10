@@ -15,6 +15,6 @@
 //début affichage
     echo "Il y a ".count($marques)." marques de voitures dans le tableau :<br>";
 //boucle affichage tableau
-    foreach(range(0, count($marques)-1) as $i){
-        echo $marques[$i]."<br>";
+    foreach($marques as $marque){
+        echo $marque."<br>"; 
     }
