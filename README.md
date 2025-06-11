@@ -10,7 +10,7 @@ Fonctionnalités
 Il s'agit d'une suite d'exercices permettant de mettre en pratique le cours relatf à la découvert du langage PHP et de mettre les premières bases en créant ses premiers algorithmes
 
 🎓 Objectifs pédagogiques
-Installation d'un environnement de travail sous Windows (Paragon)
+Installation d'un environnement de travail sous Windows (Laragon)
 Prise de contact avec le PHP:
 Utiliser la documentation officiel de PHP, découverte des fontions de base
 déclarations de variables, de fonction, utilisation des tableaux
